@@ -391,7 +391,10 @@ body {
 .banner {
     text-align: left;
     padding: 100px 10% 50px; /* Reduced bottom padding from 100px to 50px */
-    background-color: #f8f9fa;
+    background: rgb(240,240,240);
+background: linear-gradient(135deg, rgba(240,240,240,1) 0%, rgba(189,189,189,1) 50%, rgba(120,120,120,1) 100%);
+
+
     min-height: 70vh; /* Reduced from 80vh to 70vh to decrease overall space */
     display: flex;
     flex-direction: column;
