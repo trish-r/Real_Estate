@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Properties - HomeQuest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>HomeQuest</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="signin.html">Sign In</a>
+        </nav>
+    </header>
+
+    <section class="search-page">
+        <div class="search-container">
+            <div class="search-filters">
+                <div class="search-input">
+                    <input type="text" placeholder="Search..." autofocus>
+                </div>
+                
+                <div class="filter-section">
+                    <label>Type:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" checked> Rent & Sale</label>
+                        <label><input type="checkbox"> Rent</label>
+                        <label><input type="checkbox"> Sale</label>
+                        <label><input type="checkbox"> Offer</label>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <label>Amenities:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox"> Parking</label>
+                        <label><input type="checkbox"> Furnished</label>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <label>Sort:</label>
+                    <select>
+                        <option value="latest">Latest</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                    </select>
+                </div>
+
+                <button class="search-button">SEARCH</button>
+            </div>
+        </div>
+
+        <div class="search-results">
+            <h2>Listing results:</h2>
+            <div class="property-grid">
+                <!-- Example property cards -->
+                <div class="property-card">
+                    <img src="./2.jpeg" alt="Luxury Residence">
+                    <div class="property-info">
+                        <h3>Luxury Residence</h3>
+                        <p class="location">123 Ocean Drive</p>
+                        <p class="description">Lorem ipsum is the best dummy text.</p>
+                        <p class="price">$22,000 / month</p>
+                        <div class="property-stats">
+                            <span>10 Beds</span>
+                            <span>10 Baths</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more property cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 HomeQuest. All rights reserved.</p>
+    </footer>
+</body>
+</html>
