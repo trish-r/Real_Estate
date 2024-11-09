@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeQuest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>HomeQuest</h1>
+        <input type="text" placeholder="Search...">
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="signin.html">Sign In</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Find your next <span class="highlight">perfect</span><br>place with ease</h2>
+        <p>HomeQuest will help you find your home fast, easy and comfortable.<br>Our expert support are always available.</p>
+        <a href="signin.html" class="btn">Let's Start now...</a>
+    </section>
+
+    <section class="recent-offers">
+        <h3>Recent offers</h3>
+        <a href="#" class="see-more">See more offers</a>
+        <div class="offer-cards">
+            <div class="card">
+                <img src="./2.jpeg" alt="Luxury Villa">
+                <h4>Elante Stays</h4>
+                <h5>Chandigarh</h5>
+                <p>3 beds • 2 baths</p>
+                <p class="price">₹ 2,84,00,000</p>
+            </div>
+            <div class="card">
+                <img src="./3.jpeg" alt="Modern Penthouse">
+                <h4>Omaxe Apartments</h4>
+                <h5>Patiala</h5>
+                <p>4 beds • 3 baths</p>
+                <p class="price">₹ 85000/month</p>
+            </div>
+            <div class="card">
+                <img src="./download.jpeg" alt="Cottage">
+                <h4>DLF</h4>
+                <h5>Gurugram</h5>
+                <p>2 beds • 1 bath</p>
+                <p class="price">₹ 1,95,00,000</p>
+            </div>
+            <div class="card">
+                <img src="./5.jpeg" alt="Luxury Penthouse">
+                <h4>Luxury Penthouse</h4>
+                <h5>Zirakpur</h5>
+                <p>5 beds • 4 baths</p>
+                <p class="price">₹ 80000/month</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="inquiry-form">
+        <h3>Inquire about a property</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 HomeQuest. All rights reserved.</p>
+    </footer>
+</body>
+</html>

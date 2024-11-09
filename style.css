@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.header input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+.header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+.header nav a.active {
+    color: #d3d2c9;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About Page Styles */
+.about-section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.about-image {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-text {
+    width: 60%;
+}
+
+.about-text h3 {
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.about-text ul {
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+.about-text li {
+    margin-bottom: 10px;
+}
+
+/* Sign In Page Styles */
+.signin-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 140px);
+    padding: 40px 20px;
+}
+
+.signin-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.signin-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.forgot-password {
+    color: #666;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signin-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.signin-button:hover {
+    background-color: #555;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.header input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+.header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px;
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: #333;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.banner .btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.banner .btn:hover {
+    background-color: #555;
+}
+.recent-offers {
+    padding: 20px;
+}
+
+.recent-offers h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.recent-offers .see-more {
+    float: right;
+    text-decoration: none;
+    color: #333;
+}
+
+.offer-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(25% - 20px);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.card .price {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Inquiry Form Section */
+.inquiry-form {
+    background-color: #f8f8f8;
+    padding: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.inquiry-form h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.inquiry-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.inquiry-form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.inquiry-form input[type="text"],
+.inquiry-form input[type="email"],
+.inquiry-form input[type="tel"],
+.inquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.inquiry-form button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inquiry-form button:hover {
+    background-color: #555;
+}
+
+.intro-image {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: block;
+}
+.banner .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.intro-image {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+.banner {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#caption{
+    font-weight: 300;
+}
+
+.banner {
+    text-align: left;
+    padding: 100px 10% 50px; /* Reduced bottom padding from 100px to 50px */
+    background-color: #f8f9fa;
+    min-height: 70vh; /* Reduced from 80vh to 70vh to decrease overall space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner h2 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #2c3e50;
+}
+
+.banner .highlight {
+    color: #6c7c94;
+}
+
+.banner p {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px; /* Reduced from 40px to 30px */
+    max-width: 600px;
+}
+
+.banner .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    width: fit-content;
+    margin-bottom: 20px; /* Added margin-bottom to control space after button */
+}
+
+.banner .btn:hover {
+    background-color: #797e85;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 60px 10% 30px; /* Even smaller padding for mobile */
+        min-height: 60vh; /* Reduced height for mobile */
+    }
+    
+    .banner h2 {
+        font-size: 40px;
+    }
+    
+    .banner p {
+        font-size: 18px;
+    }
+}
